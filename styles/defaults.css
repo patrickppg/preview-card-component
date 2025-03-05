@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  src: url("/assets/fonts/Lexend_Deca/static/LexendDeca-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  src: url("/assets/fonts/Big_Shoulders/static/big-shoulders-display.bold.ttf");
+}
+
+:root {
+  color: white;
+  font: 1rem / 1.67 "Lexend Deca", sans-serif;
+  
+  --color-bright-orange: hsl(31, 77%, 52%);
+  --color-dark-cyan: hsl(184, 100%, 22%);
+  --color-very-dark-cyan: hsl(179, 100%, 13%);
+  --radius-small: 8px;
+  --transition-smooth: .1s linear;
+}
+
+body {
+  font-size: .9375rem;
+  margin: unset;
+}
+
+h2 {
+  margin: unset;
+}
+
+p {
+  margin: unset;
+}
